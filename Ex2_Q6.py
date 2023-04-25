@@ -7,7 +7,6 @@ import random
 score=100
 while (True) :
     coin=random.randint(0,1)
-    print(coin)
     user=int(input('Enter your choice :'))
     if(user==coin) :
         score+=9
