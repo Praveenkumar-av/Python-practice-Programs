@@ -3,7 +3,7 @@
  #If it is possible to access CRED programs, output YES, otherwise output NO.
 
 cred=int(input("Enter the Credit score :"))
-if (cred>=750) :
+if cred>=750 :
     print("YES")
 else :
     print("NO")
