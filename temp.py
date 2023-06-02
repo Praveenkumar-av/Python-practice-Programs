@@ -1,16 +1,15 @@
-lst=['praveen','apple','banana']
-target=input('Enter a word "')
-def find(L, target):
-    start = 0
-    end = len(L) - 1
+class temp1 :
+    te='abc'
+    def __init__(self,s) :
+        self.t=s
+    def game(self) :
+        self.b='chd'
 
-    while start <= end: 
-        middle = (start + end)// 2 
-        midpoint = L[middle]
-        if midpoint > target:
-            end = middle - 1
-        elif midpoint < target:
-            start = middle + 1
-        else:
-            return middle
-print(find(lst,target))
+class temp2 :
+    def __init__(self) :
+        self.a='bcd'
+    
+c1=temp1('abc')
+c2=temp1('xyz')
+print(c1)
+print(id(c2.te))
