@@ -6,8 +6,9 @@
 import random
 score=100
 while (True) :
-    coin=random.randint(0,1)
-    user=int(input('Enter your choice :'))
+    l=['h','t']
+    coin=l[random.randint(0,1)]
+    user=input("Enter your choice('h' for head and 't' for tail) :")
     if(user==coin) :
         score+=9
     else :

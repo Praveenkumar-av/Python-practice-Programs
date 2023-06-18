@@ -44,7 +44,7 @@ class rock_paper_scissors :
         elif rock_paper_scissors.winner==1 :
             print(f'Winner of Round {self.round} is Computer')
         else :
-            print(f'Winner of Round {self.round} is None')
+            print(f'Winner of Round {self.round} :Draw')
 
 g1=rock_paper_scissors()
 for i in range(n) :

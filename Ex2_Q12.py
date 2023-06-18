@@ -7,8 +7,13 @@
 
 import random
 for i in range (10) :
-    user=int(input('Enter your choice :'))
+    r=int(input('Enter your choice(1,2,3) :'))
+    if(r==1) :user='Rock'
+    elif(r==2) :user="Paper"
+    elif(r==3) :user='Scissor'
     r=random.randint(0,2)
-    if(r==0) :print('Rock')
-    elif(r==1) :print("Paper")
-    else :print('Scissor')
+    if(r==0) :com='Rock'
+    elif(r==1) :com="Paper"
+    else :com='Scissor'
+    print("Computer's choice :",com)
+    print('Your choice :',user)

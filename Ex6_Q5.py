@@ -15,7 +15,7 @@ for i in range(n) :
     lst.append(input())
 n=int(input('Enter the length of word :'))
 s=input('Enter the string s :')
-l=input('Enter the string for L')
+l=input('Enter the string for L :')
 class wordplay :
     def __init__(self,lst,n,s,l) :
         self.lst=lst
@@ -66,9 +66,9 @@ class wordplay :
         return self.lst6
 
 case1=wordplay(lst,n,s,l)
-print('Words with length',len,':',case1.words_with_length())
+print('Words with length',n,':',case1.words_with_length())
 print('Words starts with',s,':',case1.starts_with())
 print('Words ends with',s,':',case1.ends_with())
 print('Palindrome words :',case1.palindromes())
-print('Words that only contains',list(l),':',case1.only())
-print('Words that does not contains',list(l),':',case1.avoids())
+print('Words that only contains',''.join(list(l)),':',case1.only())
+print('Words that does not contains',''.join(list(l)),':',case1.avoids())

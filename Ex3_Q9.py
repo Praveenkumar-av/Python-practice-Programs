@@ -8,13 +8,14 @@
 n1=int(input('Enter no. of records :'))
 donor=dict()
 for i in range(n1) :
-    blood=input('Enter the blood group :')
+    blood=input(f'Enter the blood group of person {i+1}:')
     name=[]
     age=[]
-    print('Enter the no. of persons with blood group',blood,':')
+    print('Enter the no. of persons with blood group',blood,':',end=' ')
     n2=int(input())
+    print()
     for j in range(n2) :
-        name.append(input('Enter the name :'))
+        name.append(input(f'Enter the name of donor {j+1}:'))
         age.append(int(input('Enter the age of the person :')))
         print()
     donor[blood]=(tuple(name),tuple(age))

@@ -16,4 +16,7 @@ for i in range(7) :
     if(num[i]>0) : positive+=1
     elif (num[i]<0) : negative+=1
     else : zero+=1
-print("Sum =",sum,'\nPositive entries count :',positive,'\nNegative entries count :',negative,'\nNumber equal to zero :',zero)
+print("Sum =",sum)
+print('Positive entries count :',positive)
+print('Negative entries count :',negative)
+print('Number equal to zero :',zero)

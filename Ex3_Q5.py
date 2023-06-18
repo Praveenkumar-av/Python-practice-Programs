@@ -10,6 +10,7 @@ sum=0
 count=0
 for i in range (n) :
     lst.append(int(input()))
+print('Output :')
 for j in range (n) :
     num=lst[j]
     k=2
