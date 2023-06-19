@@ -11,7 +11,6 @@ time1=input('Enter the time in hh:mm period:')
 time1h=int(time1[0:2])  # time1 hour
 time1m=int(time1[3:5])  # time1 minutes
 period=time1[5:7]       # am or pm
-print(time1h,time1m,period)
 place1=input('Starting zone :')
 place2=input('Ending zone :')
 time2h=0

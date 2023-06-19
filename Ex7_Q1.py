@@ -22,4 +22,9 @@ class simpleTester(primeTester) :
         return super().isprime()
 
 t1=simpleTester(num)
-print(t1.testprime())
+bool=t1.testprime()
+if bool :
+    print('Prime number ')
+else :
+    print('Not a prime number ')
+    

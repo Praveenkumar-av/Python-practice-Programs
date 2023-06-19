@@ -41,4 +41,3 @@ if n>0 :
             print(' ',ch,end='')
 else :
     print('Please Enter a string !')
-            

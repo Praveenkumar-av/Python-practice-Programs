@@ -22,13 +22,12 @@ lst=[]
 for i in range(b) :
     lst.append(s[i:n:b])
 en_string=''.join(lst)
-print(en_string)
+print('Encrypted string:',en_string)
 
 # Decryption
 index_list=[]
 for i in range(b) :
     index_list+=list(range(i,n,b))
-print(index_list)
 
 de_string=''
 for i in range(n) :
@@ -37,4 +36,4 @@ for i in range(n) :
             index=j
             break
     de_string+=en_string[index]
-print(de_string)
+print('Decrypted string :',de_string)

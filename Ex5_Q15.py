@@ -15,10 +15,10 @@
 # tomorrow's class!
 
 college=input('Enter a College class :')
-objective=input('Enter an objective :')
+adjective=input('Enter an adjectve :')
 activity=input('Enter the activity :')
 str='''{0} class was really {1} today. We learned how to
 {2} today in class. I can't wait for
 tomorrow's class!
-'''.format(college,objective,activity)
+'''.format(college,adjective,activity)
 print(str)

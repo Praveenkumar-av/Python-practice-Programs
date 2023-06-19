@@ -7,7 +7,7 @@ num=num[::-1]    # reversing the number
 str=num[0]
 for i in range(1,len(num)) :
     if i%3==0 :
-        str+=','    # adding comma for each 3 degit   
+        str+=','    # adding comma for each 3 digit   
     str+=num[i]
 str=str[::-1]      # reversing back the original form
 print(str)
