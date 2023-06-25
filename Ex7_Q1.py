@@ -19,7 +19,7 @@ class primeTester :
 
 class simpleTester(primeTester) :
     def testprime(self) :
-        return super().isprime()
+        return self.isprime()
 
 t1=simpleTester(num)
 bool=t1.testprime()

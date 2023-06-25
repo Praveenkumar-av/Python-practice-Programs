@@ -39,11 +39,11 @@ class application(WeighedItem,CountedItem) :
     def purchase(self) :
         if self.type=='counts' :
             quantity=int(input('Enter the counts :'))
-            WeighedItem.__init__(self,self.name,self.price,quantity)
+            CountedItem.__init__(self,self.name,self.price,quantity)
             return self.getPrice()
         elif self.type=='weight' :
             quantity=int(input('Enter the weight :'))
-            CountedItem.__init__(self,self.name,self.price,quantity)     
+            WeighedItem.__init__(self,self.name,self.price,quantity)     
             return self.getPrice()
 
 p=application()
