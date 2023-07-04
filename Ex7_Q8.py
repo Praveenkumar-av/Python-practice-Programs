@@ -33,6 +33,7 @@ class Longest_String(Dictionary) :
             if min_diff==-1 :
                 min_diff=diff
             if diff<min_diff :
+                min_diff=diff
                 self.result=s
         return self.result
 
