@@ -1,2 +1,4 @@
-d={1:'dell',2:'hp',3:'lenovo'}
-print(d.get(3,-1))
+def sum(val1 : int,val2 : int) -> int :
+    return val1+val2
+
+print(sum("j","i"))
