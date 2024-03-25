@@ -60,7 +60,7 @@ class Solution :
 
                     if nx == r-1 and ny == c-1 and visted[nx][ny] == 0 and grid[nx][ny] != 2 and d+1 <= dist[nx][ny] :
                         return True
-            else :       
+            else :  
                 return False
             
         while left < right :
@@ -81,6 +81,11 @@ class Solution :
     
 obj = Solution
 # lst = [[0,0,0,0],[0,1,2,0],[0,2,0,0]]
-lst = [[0,2,0,0,0,0,0],[0,0,0,2,2,1,0],[0,2,0,0,1,2,0],[0,2,0,0,1,2,0],[0,0,2,2,2,0,2],[0,0,0,0,0,0,0]]
+lst = [[0,2,0,0,0,0,0],[0,0,0,2,2,1,0],[0,2,0,0,1,2,0],[0,0,2,2,2,0,2],[0,0,0,0,0,0,0]]
 result = obj.minimumMinutes(lst)
 print(result)
+
+# r, c = [int(x) for x in input().split()]
+# lst = []
+# for i in range(r) :
+#     lst.append(list([int(x) for x in input().split()]))
