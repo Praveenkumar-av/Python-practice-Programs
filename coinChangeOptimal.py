@@ -15,7 +15,9 @@ def minNoCoins(coins,total) :
     else :
         return minCoins[total]
 
+print("Enter the coins :")
 s = input()
+print("Enter the amount :")
 total = int(input())
 coins = s.split()
 for i in range(len(coins)) :
